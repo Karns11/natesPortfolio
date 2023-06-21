@@ -343,3 +343,11 @@ a.proj-button:hover:after {
   animation: moveInLeft 1s ease-in-out;
   animation-fill-mode: backwards;
 }
+
+.proj-skill {
+  font-size: 1.5rem;
+}
+
+.proj-skill:hover {
+  transform: scale(1.1);
+}
