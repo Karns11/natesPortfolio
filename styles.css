@@ -202,6 +202,11 @@ body {
 
 .proj-img {
   width: 100%;
+  transition: transform 0.4s;
+}
+
+.proj-img:hover {
+  transform: scale(1.05);
 }
 
 ul {
@@ -333,6 +338,7 @@ a.proj-button:hover:after {
 
 .skill {
   font-size: 2.5rem;
+  transition: transform 0.4s;
 }
 
 .skill:hover {
@@ -345,7 +351,8 @@ a.proj-button:hover:after {
 }
 
 .proj-skill {
-  font-size: 1.5rem;
+  font-size: 1.55rem;
+  transition: transform 0.4s;
 }
 
 .proj-skill:hover {
