@@ -330,3 +330,16 @@ a.proj-button:hover:after {
     transform: translateY(0);
   }
 }
+
+.skill {
+  font-size: 2.5rem;
+}
+
+.skill:hover {
+  transform: scale(1.1);
+}
+
+.skills-animated {
+  animation: moveInLeft 1s ease-in-out;
+  animation-fill-mode: backwards;
+}
