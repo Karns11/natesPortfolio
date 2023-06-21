@@ -209,6 +209,16 @@ body {
   transform: scale(1.05);
 }
 
+.pro-img {
+  width: 100%;
+  transition: transform 0.4s;
+  transform: scale(1.4);
+}
+
+.pro-img:hover {
+  transform: scale(1.25);
+}
+
 ul {
   list-style: none;
 }
