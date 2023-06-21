@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
       rel="stylesheet"
@@ -30,210 +30,311 @@
       src="https://cdn.emailjs.com/dist/email.min.js"
     ></script>
     <title>Nates Portfolio</title>
-</head>
-<body>
+  </head>
+  <body>
     <header class="header">
-        <div class="header__logo-box">
-          <img src='logo-white.png' alt="Logo" class="header__logo" />
+      <div class="header__logo-box">
+        <img src="logo-white.png" alt="Logo" class="header__logo" />
+      </div>
+      <div class="header__showcase">
+        <div class="header__showcase-pic-container">
+          <img class="showcase-pic" src="showcase.jpg" alt="showcase_pic" />
         </div>
-        <div class="header__showcase">
-          <div class="header__showcase-pic-container">
-            <img class="showcase-pic" src='showcase.jpg' alt="showcase_pic"></img>
+        <div class="header__text-box">
+          <h1 class="heading-primary">Aspiring Developer</h1>
+          <p class="heading-sub">
+            I'm excited to share my journey and projects on this platform with
+            you.
+          </p>
+          <div
+            class="d-flex align-items-center justify-content-between px-2 mt-3 mb-4 skills-animated"
+          >
+            <i class="fa-brands fa-html5 skill"></i>
+            <i class="fa-brands fa-css3-alt skill"></i>
+            <i class="fa-brands fa-square-js skill"></i>
+            <i class="fa-brands fa-react skill"></i>
+            <i class="fa-brands fa-square-git skill"></i>
+            <i class="fa-brands fa-python skill"></i>
+            <i class="fa-brands fa-node-js skill"></i>
           </div>
-          <div class="header__text-box">
-            <h1 class="heading-primary">Aspiring Developer</h1>
-            <p class="heading-sub">
-              I'm excited to share my journey and projects on this platform with
-              you.
+          <a
+            href="#Projects"
+            class="header-btn header-btn-white header-btn-animated"
+          >
+            Check out my projects
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <section id="Projects">
+      <div class="container proj-container text-center">
+        <h2 class="mb-4">Projects</h2>
+
+        <div class="row">
+          <div class="col-md-6">
+            <a href="https://letsfitswole.onrender.com/"
+              ><img class="proj-img" src="lfsmarkup.png" alt="lets fit swole"
+            /></a>
+          </div>
+          <div class="col-md-6">
+            <h2 class="pt-5">LET'S FIT SWOLE</h2>
+            <p class="pt-5 text-start">
+              Introducing a dynamic MERN fitness app! This app revolutionizes
+              your fitness journey with a user-friendly interface, customizable
+              workouts, and a supportive community. Plan, track, and connect
+              with others to achieve your fitness goals.
             </p>
-            <div class="d-flex align-items-center justify-content-between px-2 mt-3 mb-4 skills-animated">
-              <i class="fa-brands fa-html5 skill"></i>
-              <i class="fa-brands fa-css3-alt skill"></i>
-              <i class="fa-brands fa-square-js skill"></i>
-              <i class="fa-brands fa-react skill"></i>
-              <i class="fa-brands fa-square-git skill"></i>
-              <i class="fa-brands fa-python skill"></i>
-              <i class="fa-brands fa-node-js skill"></i>
+            <div class="wrapper mt-2">
+              <a class="proj-button" href="https://letsfitswole.onrender.com/"
+                ><span>Live Site</span></a
+              >
             </div>
-            <a
-              href="#Projects"
-              class="header-btn header-btn-white header-btn-animated"
+            <h5 class="mt-4">SKILLS USED:</h5>
+            <div
+              class="d-flex align-items-center justify-content-around px-2 mt-3 mb-4"
             >
-              Check out my projects
-            </a>
-          </div>
-        </div>
-      </header>
-
-      <section id="Projects">
-        <div class="container proj-container text-center">
-          <h2 class="mb-4">Projects</h2>
-  
-
-          <div class="row">
-            <div class="col-md-6"><a href="https://letsfitswole.onrender.com/"><img class="proj-img" src='lfsmarkup.png' alt="lets fit swole" /></a></div>
-            <div class="col-md-6">
-                <h2 class="pt-5">LET'S FIT SWOLE</h2>
-                <p class="pt-5 text-start">
-                Introducing a dynamic MERN fitness app! This app revolutionizes
-                your fitness journey with a user-friendly interface, customizable
-                workouts, and a supportive community. Plan, track, and connect
-                with others to achieve your fitness goals.
-              </p>
-              <div class="wrapper mt-2">
-                <a class="proj-button" href="https://letsfitswole.onrender.com/"><span>Live Site</span></a>
-              </div>
+              <i class="fa-brands fa-html5 proj-skill"></i>
+              <i class="fa-brands fa-css3-alt proj-skill"></i>
+              <i class="fa-brands fa-square-js proj-skill"></i>
+              <i class="fa-brands fa-react proj-skill"></i>
+              <i class="fa-brands fa-bootstrap proj-skill"></i>
+              <i class="fa-brands fa-node-js proj-skill"></i>
             </div>
           </div>
-
-          <div class="row mt-4">
-            <div class="col-md-6">
-                <h2 class="pt-5">PROSHOP ECOMMERCE SITE</h2>
-                <p class="pt-5 text-start">
-                Presenting an exceptional MERN-based ProShop eCommerce site! This
-                feature-rich platform offers seamless integration, top-notch
-                authentication, and exclusive administrator capabilities.
-                Experience a robust, user-friendly, and scalable solution tailored
-                to meet business needs. Witness the power of this extraordinary
-                platform soon!
-              </p>
-              <div class="wrapper mt-2">
-                <a class="proj-button" href="https://proshop-7ryx.onrender.com/"><span>Live Site</span></a>
-              </div>
-              
-            </div>
-            <div class="col-md-6"><a href="https://proshop-7ryx.onrender.com/"><img class="proj-img" src='proshopmarkup.png' alt="proshop" /></a></div>
-          </div>
-
-          <div class="row mt-4">
-            <div class="col-md-6"><a href="https://natesnbastatsapp.netlify.app/"><img class="proj-img" src='nbamarkup.png' alt="proshop" /></a></div>
-            <div class="col-md-6">
-                <h2 class="pt-5">NBA STATS APP</h2>
-                <p class="pt-5 text-start">
-                Introducing an NBA stats app developed with React and Bootstrap!
-                Get comprehensive NBA statistics in real-time from the balldontlie
-                API. Make informed decisions with player and team stats, game
-                results, and historical data. Enhance your sports betting
-                strategies with this powerful app.
-              </p>
-              <div class="wrapper mt-2">
-                <a class="proj-button" href="https://natesnbastatsapp.netlify.app/"><span>Live Site</span></a>
-              </div>
-            </div>
-          </div>
-          
-  
-          
-        </div>
-  
-      </section>
-
-
-      <div class="container">
-        <div class="experience-title">
-          <h1 class="text-center mt-3 mb-2">Experience</h1>
         </div>
 
-        <details
-          class="exp-card"
-          data-aos="fade-right"
-          style="border: 3px solid black; padding: 2rem; margin-bottom: 2rem; box-shadow: 1rem 1rem 2rem black; border-radius: 1rem;"
-        >
-          <summary style="font-weight: bold">
-            Software Engineer Intern
-          </summary>
-          <h3>Boosted Biz</h3>
-          <h6>June 2023 - Present</h6>
-          <p>
-            • Utilized the Shopify API to automate the creation of a plethora of
-            customized e-commerce websites for diverse clients, reducing the
-            development time by 50% as a Software Engineer Intern.
-          </p>
-          <p>
-            • Developed a web application that automated creating and sending purchase orders which saved time by more than 50%.
-          </p>
-        </details>
+        <div class="row mt-4">
+          <div class="col-md-6">
+            <h2 class="pt-5">PROSHOP ECOMMERCE SITE</h2>
+            <p class="pt-5 text-start">
+              Presenting an exceptional MERN-based ProShop eCommerce site! This
+              feature-rich platform offers seamless integration, top-notch
+              authentication, and exclusive administrator capabilities.
+              Experience a robust, user-friendly, and scalable solution tailored
+              to meet business needs. Witness the power of this extraordinary
+              platform soon!
+            </p>
+            <div class="wrapper mt-2">
+              <a class="proj-button" href="https://proshop-7ryx.onrender.com/"
+                ><span>Live Site</span></a
+              >
+            </div>
+            <h5 class="mt-4">SKILLS USED:</h5>
+            <div
+              class="d-flex align-items-center justify-content-around px-2 mt-3 mb-4"
+            >
+              <i class="fa-brands fa-html5 proj-skill"></i>
+              <i class="fa-brands fa-css3-alt proj-skill"></i>
+              <i class="fa-brands fa-square-js proj-skill"></i>
+              <i class="fa-brands fa-react proj-skill"></i>
+              <i class="fa-brands fa-bootstrap proj-skill"></i>
+              <i class="fa-brands fa-node-js proj-skill"></i>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <a href="https://proshop-7ryx.onrender.com/"
+              ><img class="proj-img" src="proshopmarkup.png" alt="proshop"
+            /></a>
+          </div>
+        </div>
 
-        <details
-          class="exp-card"
-          data-aos="fade-right"
-          style="border: 3px solid black; padding: 2rem; margin-bottom: 2rem; box-shadow: 1rem 1rem 2rem black; border-radius: 1rem;"
-        >
-          <summary style="font-weight: bold">Data Analyst</summary>
-          <h3>Spartan Analytics Consulting Group</h3>
-          <h6>September 2022 - May 2023</h6>
-          <p>
-            • Demonstrated leadership and analytical skills as an analyst where
-            I analyzed data to develop statistical models and provide process
-            improvement recommendations to local businesses which increased
-            sales by 20%.
-          </p>
-        </details>
-        <details
-          class="exp-card"
-          data-aos="fade-left"
-          style="border: 3px solid black; padding: 2rem; margin-bottom: 2rem; box-shadow: 1rem 1rem 2rem black; border-radius: 1rem;"
-        >
-          <summary style="font-weight: bold">
-            Data Analytics Intern
-          </summary>
-          <h3>McNaughton-McKay</h3>
-          <h6>May 2022 - August 2022</h6>
-          <p>
-            • Designed, developed, and implemented an innovative application to
-            automate the price checking processes, resulting in a 25%
-            improvement in time efficiency for the sales team and significant
-            increase in pricing accuracy.
-          </p>
-        </details>
+        <div class="row mt-4">
+          <div class="col-md-6">
+            <a href="https://natesnbastatsapp.netlify.app/"
+              ><img class="proj-img" src="nbamarkup.png" alt="proshop"
+            /></a>
+          </div>
+          <div class="col-md-6">
+            <h2 class="pt-5">NBA STATS APP</h2>
+            <p class="pt-5 text-start">
+              Introducing an NBA stats app developed with React and Bootstrap!
+              Get comprehensive NBA statistics in real-time from the balldontlie
+              API. Make informed decisions with player and team stats, game
+              results, and historical data. Enhance your sports betting
+              strategies with this powerful app.
+            </p>
+            <div class="wrapper mt-2">
+              <a
+                class="proj-button"
+                href="https://natesnbastatsapp.netlify.app/"
+                ><span>Live Site</span></a
+              >
+            </div>
+            <h5 class="mt-4">SKILLS USED:</h5>
+            <div
+              class="d-flex align-items-center justify-content-around px-2 mt-3 mb-4"
+            >
+              <i class="fa-brands fa-html5 proj-skill"></i>
+              <i class="fa-brands fa-css3-alt proj-skill"></i>
+              <i class="fa-brands fa-square-js proj-skill"></i>
+              <i class="fa-brands fa-react proj-skill"></i>
+              <i class="fa-brands fa-bootstrap proj-skill"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-4">
+          <div class="col-md-6">
+            <h2 class="pt-5">MOVIE/BOOK SEARCH APP</h2>
+            <p class="pt-5 text-start">
+              Introducing a cutting-edge movie/book search app, developed using
+              React, the Google Books API, and the IMDb API! This groundbreaking
+              project showcases my early accomplishments in React development.
+              Explore an extensive library of movies and books with ease, as
+              this intuitive app seamlessly integrates data from both APIs. Dive
+              into the world of cinema and literature, all while harnessing the
+              power of React. Expand your horizons and make informed choices for
+              your next movie night or literary adventure. With this impressive
+              app, the possibilities are endless.
+            </p>
+            <div class="wrapper mt-2">
+              <a
+                class="proj-button"
+                href="https://spectacular-beignet-b15b0f.netlify.app/"
+                ><span>Live Site</span></a
+              >
+            </div>
+            <h5 class="mt-4">SKILLS USED:</h5>
+            <div
+              class="d-flex align-items-center justify-content-around px-2 mt-3 mb-4"
+            >
+              <i class="fa-brands fa-html5 proj-skill"></i>
+              <i class="fa-brands fa-css3-alt proj-skill"></i>
+              <i class="fa-brands fa-square-js proj-skill"></i>
+              <i class="fa-brands fa-react proj-skill"></i>
+              <i class="fa-brands fa-bootstrap proj-skill"></i>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <a href="https://spectacular-beignet-b15b0f.netlify.app/"
+              ><img
+                class="proj-img"
+                src="movieAndBook.png"
+                alt="movie/book app"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+      <div class="experience-title">
+        <h1 class="text-center mt-3 mb-2">Experience</h1>
       </div>
 
-      <footer id="Contact" class="footer">
-        <div class="footer-col">
-          <div class="d-flex align-items-center justify-content-center p-3 text-center mt-5">
-            <div class="w-50">
-              <h4 class="text-center connect-title">Let's Connect!</h4>
-              <div class="social-links text-center mb-5">
-                <a
+      <details
+        class="exp-card"
+        data-aos="fade-right"
+        style="
+          border: 3px solid black;
+          padding: 2rem;
+          margin-bottom: 2rem;
+          box-shadow: 1rem 1rem 2rem black;
+          border-radius: 1rem;
+        "
+      >
+        <summary style="font-weight: bold">Software Engineer Intern</summary>
+        <h3>Boosted Biz</h3>
+        <h6>June 2023 - Present</h6>
+        <p>
+          • Utilized the Shopify API to automate the creation of a plethora of
+          customized e-commerce websites for diverse clients, reducing the
+          development time by 50% as a Software Engineer Intern.
+        </p>
+        <p>
+          • Developed a web application that automated creating and sending
+          purchase orders which saved time by more than 50%.
+        </p>
+      </details>
 
-                  href="https://www.facebook.com/profile.php?id=100072880317488"
-                >
-                  <i class="fab fa-facebook-f"></i>
-                </a>
-                <a  href="https://twitter.com/karnsnathan11">
-                  <i class="fab fa-twitter"></i>
-                </a>
-                <a  href="https://www.instagram.com/karnsnathan11/">
-                  <i class="fab fa-instagram"></i>
-                </a>
-                <a
-                  
-                  href="https://www.linkedin.com/in/nathan-karns-63820a216/"
-                >
-                  <i class="fab fa-linkedin-in"></i>
-                </a>
-                <a
-                  
-                  href="https://github.com/Karns11"
-                >
-                  <i class="fab fa-github"></i>
-                </a>
-              </div>
-              
-              
-              
+      <details
+        class="exp-card"
+        data-aos="fade-right"
+        style="
+          border: 3px solid black;
+          padding: 2rem;
+          margin-bottom: 2rem;
+          box-shadow: 1rem 1rem 2rem black;
+          border-radius: 1rem;
+        "
+      >
+        <summary style="font-weight: bold">Data Analyst</summary>
+        <h3>Spartan Analytics Consulting Group</h3>
+        <h6>September 2022 - May 2023</h6>
+        <p>
+          • Demonstrated leadership and analytical skills as an analyst where I
+          analyzed data to develop statistical models and provide process
+          improvement recommendations to local businesses which increased sales
+          by 20%.
+        </p>
+      </details>
+      <details
+        class="exp-card"
+        data-aos="fade-left"
+        style="
+          border: 3px solid black;
+          padding: 2rem;
+          margin-bottom: 2rem;
+          box-shadow: 1rem 1rem 2rem black;
+          border-radius: 1rem;
+        "
+      >
+        <summary style="font-weight: bold">Data Analytics Intern</summary>
+        <h3>McNaughton-McKay</h3>
+        <h6>May 2022 - August 2022</h6>
+        <p>
+          • Designed, developed, and implemented an innovative application to
+          automate the price checking processes, resulting in a 25% improvement
+          in time efficiency for the sales team and significant increase in
+          pricing accuracy.
+        </p>
+      </details>
+    </div>
+
+    <footer id="Contact" class="footer">
+      <div class="footer-col">
+        <div
+          class="d-flex align-items-center justify-content-center p-3 text-center mt-5"
+        >
+          <div class="w-50">
+            <h4 class="text-center connect-title">Let's Connect!</h4>
+            <div class="social-links text-center mb-5">
+              <a href="https://www.facebook.com/profile.php?id=100072880317488">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="https://twitter.com/karnsnathan11">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="https://www.instagram.com/karnsnathan11/">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/nathan-karns-63820a216/">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              <a href="https://github.com/Karns11">
+                <i class="fab fa-github"></i>
+              </a>
             </div>
           </div>
-          
         </div>
-      </footer>
-      
+      </div>
+    </footer>
 
-      
-
-      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    </body>
-</body>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
